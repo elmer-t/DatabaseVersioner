@@ -1,0 +1,33 @@
+﻿0.9.3 - 2019-03-18
+- Changed url from 'redhead-it.com' to 'redheadit.nl'
+
+0.9.2 - 2018-11-01
+- Create dbo.SchemaChanges table is it doesn't exist
+
+0.9 - 2015-12-10
+- Added timeout (sec)
+
+0.7 - 2015-03-24
+- Added extra check for invalid script versions to see if script has been processed earlier
+
+0.6 - 2015-03-16
+- Colored "Done" green when script is processed successfully
+
+0.5 - 2015-02-25
+- Sort changes by version nr instead of id
+
+0.4 - 2015-02-22
+- Arguments class
+- Testability
+- /config no longer required when setting /user/password/...
+
+0.3 - 2015-02-18
+- Fixed SchemaVersion != operator overload
+
+0.2 - 2015-02-16
+- Added Build to SchemaVersion object to match Visual Studio / Microsoft version numbers
+- Fixed absolute paths
+- Added console colors for errors and warnings
+
+0.1 - 2015-02-15
+- Initial release
